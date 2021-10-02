@@ -16,10 +16,96 @@ body{
     background-color:#000426 ;
 }
 
+.ContainerAccueil{
+    z-index: 1000;
+    width: 100%;
+    max-width: 1000px;
+    padding:50px;
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    backdrop-filter: blur(25px);
+}
+
+.ContainerAccueil::before
+{
+    content:'';
+    position: absolute;
+    top:0;
+    left:-40%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.05);
+    pointer-events: none;
+    transform: skewX(-15deg);
+}
+
+.ContainerAccueil h2{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.ContainerAccueil p {
+    text-align: center;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card span{
+    position: absolute;
+    top:0;
+    left:400px;
+    width: 250px;
+    height: 250px;
+    display: block;
+    background-color: #000;
+    border-radius:50%;
+    transform-origin: 125px 0;
+    transform: rotate(calc(90deg * var(--i)));
+    filter: blur(80px); 
+    opacity: 0.75;
+}
+
+.card span:nth-child(1){
+    background: #01b2fe;
+}
+.card span:nth-child(2){
+    background: #ff008c;
+}
+.card span:nth-child(3){
+    background: #ffcd00;
+}
+.card span:nth-child(4){
+    background: #00c456;
+}
+
+
+.sectionIndex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding:18px;
+    width: 100%;
+    background: #000426;
+}
+
 
 .containerBouttonAcceuil{
     position: absolute;
-    top:750px;
+    top:700px;
     left:610px;
     width: 700px;
     display: flex;
@@ -86,11 +172,22 @@ body{
     bottom:-5px;
     width:30px;
     height: 10px;
-    background: #01b2fe;
+    
     border-radius: 10px;
     transition: 0.5s;
     transition-delay: 0s;
 }
+
+.button:nth-child(1)::before,
+.button:nth-child(1)::after{
+    background: #12FF4B;
+}
+
+.button:nth-child(2)::before,
+.button:nth-child(2)::after{
+    background: #FF2112;
+}
+
 
 .containerBouttonAcceuil .button:hover::before{
     bottom: 0;
@@ -108,7 +205,6 @@ body{
     top:-5px;
     width:30px;
     height: 10px;
-    background: #01b2fe;
     border-radius: 10px;
     transition: 0.5s;
     transition-delay: 0s;
@@ -122,10 +218,43 @@ body{
     transition-delay: 0.5s;
 }
 
-.containerBouttonAcceuil .button::before,
-.containerBouttonAcceuil .button::after{
-    box-shadow: 0 0 5px #01b2fe,
-    0 0 15px #01b2fe,
-    0 0 30px #01b2fe,
-    0 0 60px #01b2fe;
+.containerBouttonAcceuil .button:nth-child(1)::before,
+.containerBouttonAcceuil .button:nth-child(1)::after{
+    box-shadow: 0 0 5px #12FF4B,
+    0 0 15px #12FF4B,
+    0 0 30px #12FF4B,
+    0 0 60px #12FF4B;
+}
+.containerBouttonAcceuil .button:nth-child(2)::before,
+.containerBouttonAcceuil .button:nth-child(2)::after{
+    box-shadow: 0 0 5px #FF2112,
+    0 0 15px #FF2112,
+    0 0 30px #FF2112,
+    0 0 60px #FF2112;
+}
+
+@media only screen and (max-width: 850px) {
+    .card span{
+        width: 125px;
+    height: 125px;
+    }
+
+    .card .glass{
+        width: 225px;
+        height: 150px;
+    }
+    .logoThom{
+        display: none;
+    }
+
+    .containerBouttonAcceuil{
+        position: absolute;
+        top:500px;
+        left:30px;
+        width: 300px;
+        height: 100px;
+        text-align: center;
+
+    }
+    
 }
