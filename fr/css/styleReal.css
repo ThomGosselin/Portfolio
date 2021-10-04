@@ -28,6 +28,10 @@ body{
     background: #000426;
 }
 
+.cardContent{
+    max-height: 250px;
+}
+
 .containerReal{
     display: flex;
     justify-content: space-between;
@@ -98,17 +102,17 @@ body{
     padding: var(--padding);
     background: linear-gradient(
     hsl(0 0% 0% / 0),
-    hsl(0 0% 0% / 0.2),
+    hsl(0 0% 0% / 0.3),
     hsl(0 0% 0% / 1)
     );
 
-transform: translateY(60%);
+transform: translateY(65%);
 transition: transform 500ms ease;
 transition-delay: 500ms;
 }
 
 .cardProject:hover .cardContent{
-    transform: translateY(0);
+    transform: translateY(-25%);
 }
 
 .cardContent > *:not(.projectTitle) {
