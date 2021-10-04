@@ -112,7 +112,7 @@ transition-delay: 500ms;
 }
 
 .cardProject:hover .cardContent{
-    transform: translateY(-25%);
+    transform: translateY(-45%);
 }
 
 .cardContent > *:not(.projectTitle) {
