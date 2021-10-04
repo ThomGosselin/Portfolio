@@ -11,6 +11,15 @@
     <title>Thomas Gosselin | Realisation</title>
 </head>
 <body>
+    <section class="sectionReal">
+        <div class="card">
+            <span style="--i:0;"></span>
+            <span style="--i:1;"></span>
+            <span style="--i:2;"></span>
+            <span style="--i:3;"></span>
+        </div>
+        <h2>Voici quelque une de mes réalisations! Chaque petite carte concerne un projet différent</h2>
+    </div>
     <div class="containerReal">
         <div class="cardContainer">
             <div class="cardProject">
@@ -22,6 +31,7 @@
                 <a href="#" class="button">Plus d'information</a>
             </div>
         </div>
+        </div>
         <div class="cardContainer">
             <div class="cardProject">
                 <div class="cardContent">
@@ -31,6 +41,7 @@
                 </p>
                 <a href="#" class="button">Plus d'information</a>
             </div>
+        </div>
         </div>
         <div class="cardContainer">
             <div class="cardProject">
@@ -42,6 +53,7 @@
                 <a href="#" class="button">Plus d'information</a>
             </div>
         </div>
+        </div>
         <div class="cardContainer">
             <div class="cardProject">
                 <div class="cardContent">
@@ -51,6 +63,7 @@
                 </p>
                 <a href="#" class="button">Plus d'information</a>
             </div>
+        </div>
         </div>
         <div class="cardContainer">
             <div class="cardProject">
@@ -64,5 +77,40 @@
         </div>
     </div>
 </div>
+    </section>
+    <section class="nav">
+        <ul>
+            <li><a href="accueil.html"><ion-icon name="home-outline"></ion-icon></a></li>
+            <li><a href="realisation.html"><ion-icon name="desktop-outline"></ion-icon></a></li>
+            <li class='active'><a href="accueil.html"><ion-icon name="apps-outline"></ion-icon></a></li>
+            <li><a href="aboutme.html"><ion-icon name="person-outline"></ion-icon></a></li>
+            <li><a href="contact.html"><ion-icon name="chatbubbles-outline"></ion-icon></a></li>
+            <div id="marker"></div>
+        </ul>
+    </section>
+    <script>
+        let marker = document.querySelector('#marker');
+        let list = document.querySelectorAll('ul li');
+
+        function moveIndicator(e) {
+            marker.style.left = e.offsetLeft+'px';
+            marker.style.width = e.offsetWidth+'px';
+        }
+
+        list.forEach(link => {
+            link.addEventListener('mousemove',(e) =>{
+                moveIndicator(e.target);
+            })
+        })
+
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active');
+        }
+
+        list.forEach((item) =>
+        item.addEventListener('mouseover', activeLink));
+    </script>
 </body>
 </html>
