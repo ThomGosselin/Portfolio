@@ -20,17 +20,18 @@
         </div>
         <div class="container">
             <h2>Me contacter</h2>
+            <form action="php/contactform.php" method="post"></form>
         <div class="row100">
             <div class="col">
                 <div class="inputBox">
-                    <input type="text" name="" required="required" >
+                    <input type="text" name="prenom" required="required" >
                     <span class="text">Prénom</span>
                     <span class="line"></span>
                 </div>
             </div>
             <div class="col">
                 <div class="inputBox">
-                    <input type="text" name="" required="required" >
+                    <input type="text" name="nom" required="required" >
                     <span class="text">Nom</span>
                     <span class="line"></span>
                 </div>
@@ -39,14 +40,14 @@
         <div class="row100">
             <div class="col">
                 <div class="inputBox">
-                    <input type="text" name="" required="required" >
+                    <input type="text" name="mail" required="required" >
                     <span class="text">Adresse courriel</span>
                     <span class="line"></span>
                 </div>
             </div>
             <div class="col">
                 <div class="inputBox">
-                    <input type="text" name="" required="required" >
+                    <input type="text" name="phone" required="required" >
                     <span class="text">Telephone</span>
                     <span class="line"></span>
                 </div>
@@ -56,18 +57,19 @@
             <div class="col">
                 <div class="inputBox textarea">
                     <textarea required="required"></textarea>
-                    <span class="text">Veuillez taper votre message ici..</span>
+                    <span class="text" name="message">Veuillez taper votre message ici..</span>
                     <span class="line"></span>
                 </div>
             </div>
         </div>
         <div class="row100">
             <div class="col">
-                    <input type="submit" value="envoyer">
+                <input type="submit" value="envoyer" class="buttonSend">
                 </div>
             </div>
         </div>
     </div>
+</form>
     </section>
     <section class="nav">
         <ul>
