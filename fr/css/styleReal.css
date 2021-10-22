@@ -111,7 +111,7 @@ body{
 }
 
 .cardContent{
-    --padding: 2rem;
+    --padding: 5rem;
     padding: var(--padding);
     background: linear-gradient(
     hsl(0 0% 0% / 0),
