@@ -135,6 +135,7 @@ transition-delay: 500ms;
     position: relative;
     width: max-content;
     max-width: 100%;
+    color: #000;
 }
 
 .projectTitle::after{
