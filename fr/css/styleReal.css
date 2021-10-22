@@ -56,7 +56,7 @@ body{
     top:550px;
     left:800px;
     width: 250px;
-    height: 250px;
+    height: 300px;
     display: block;
     background-color: #000;
     border-radius:50%;
@@ -111,7 +111,7 @@ body{
 }
 
 .cardContent{
-    --padding: 5rem;
+    --padding: 1.5rem;
     padding: var(--padding);
     background: linear-gradient(
     hsl(0 0% 0% / 0),
