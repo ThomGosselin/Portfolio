@@ -113,7 +113,7 @@ body{
 .cardContent{
     --padding: 1.5rem;
     padding: var(--padding);
-    );
+}
 
 transform: translateY(65%);
 transition: transform 500ms ease;
