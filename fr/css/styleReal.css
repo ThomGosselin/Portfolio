@@ -97,6 +97,18 @@ body{
 #project1{
     background-image: url(../../img/mini-1.png);
 }
+#project2{
+    background-image: url(../../img/mini-2.png);
+}
+#project3{
+    background-image: url(../../img/mini-3.png);
+}
+#project4{
+    background-image: url(../../img/mini-4.png);
+}
+#project5{
+    background-image: url(../../img/mini-5.png);
+}
 
 .cardContent{
     --padding: 1.5rem;
