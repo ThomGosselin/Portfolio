@@ -95,7 +95,9 @@ body{
     transform: scale(1.05);
 }
 
-
+#project2{
+    background-image: url(../../img/mini-1.png);
+}
 
 .cardContent{
     --padding: 1.5rem;
