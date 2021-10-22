@@ -90,6 +90,12 @@ body{
     transition: transform 500ms ease;
 }
 
+.projectContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
 .cardProject:hover{
     transform: scale(1.05);
 }
@@ -145,7 +151,7 @@ transition-delay: 500ms;
     width: calc(100% + var(--padding));
     left:calc(var(--padding) * -1);
     bottom: -2px;
-    background: var(--clr-accent-400);
+    background: white;
     transform:scaleX(0);
     transform-origin: left;
     transition: transform 500ms ease;
@@ -167,6 +173,7 @@ transition-delay: 500ms;
     background-color: var(--clr-accent-400);
     padding: 0.5em 1.25em;
     border-radius: 0.25em;
+    text-align: center;
 }
 
 .button:hover,
