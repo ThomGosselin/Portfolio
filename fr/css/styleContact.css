@@ -11,6 +11,15 @@ body{
     overflow-x: hidden;
 }
 
+p{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .card{
     position: relative;
     display: flex;
