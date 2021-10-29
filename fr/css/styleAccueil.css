@@ -209,7 +209,7 @@ ul li:nth-child(5).active ~ #marker::before{
     }
     ul{
         justify-content: left;
-        left: -350px;
+        left: -375px;
         right: 0px;
     }
     ul li a{
