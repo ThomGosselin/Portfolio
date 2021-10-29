@@ -61,6 +61,10 @@ body{
     text-align: center;
 }
 
+p{
+    color: whitesmoke;
+}
+
 .card{
     position: relative;
     display: flex;
@@ -184,6 +188,9 @@ ul li:nth-child(5).active ~ #marker::before{
 }
 
 @media (max-width: 768px){
+    .sectionHome{
+       width: 100%;
+    }
     .sectionHome::before{
         transform: translate(-200px,-180px);
     }
@@ -195,5 +202,23 @@ ul li:nth-child(5).active ~ #marker::before{
     }
     .container h2{
         font-size: 28px;
+    }
+    nav{
+        right: 0;
+        width: 100%;
+    }
+    ul{
+        justify-content: left;
+        left: -350px;
+        right: 0px;
+    }
+    ul li a{
+        padding: 5px 15px;
+    }
+    .card span{
+        left:18px;
+    }
+    #marker::before{
+        left:35px;
     }
 }
