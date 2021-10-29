@@ -273,3 +273,56 @@ h2{
     color:white;
     z-index: 25;
 }
+
+@media (max-width: 768px){
+    .sectionReal{
+       width: 100%;
+       padding:10px;
+    }
+    .sectionHome::before{
+        transform: translate(-200px,-180px);
+    }
+    .sectionHome::after{
+        transform: translate(220px,180px);
+    }
+    .containerReal{
+        flex-direction: column;
+        padding:30px;
+    }
+
+    .container{
+        padding:20px;
+    }
+    .container h2{
+        font-size: 28px;
+    }
+    nav{
+        right: 0;
+        width: 100%;
+        z-index: 9999999;
+    }
+    ul{
+        justify-content: left;
+        left: -405px;
+        right: 0px;
+        bottom: -1800px;
+        z-index: 9999999;
+    }
+    ul li a{
+        padding: 5px 15px;
+    }
+    .card span{
+        left:18px;
+        position: fixed;
+        top: 400px;
+    }
+    #marker::before{
+        left:35px;
+    }
+    h2{
+        text-align: center;
+    }
+    .cardProject{
+        margin-bottom: 20px;
+    }
+}
