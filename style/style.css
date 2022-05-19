@@ -930,6 +930,11 @@ textarea {
     outline:none;
     border: 10px solid var(--white);
   }
+  .cv video{
+    max-width: 38%;
+    outline:none;
+    border: 10px solid var(--white);
+  }
 
   .CV .close{
     position: absolute;
@@ -941,7 +946,7 @@ textarea {
     text-transform: uppercase;
     color: var(--white);
   }
-
+  
   footer{
     color: var(--white);
     display: flex;
