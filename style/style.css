@@ -972,12 +972,12 @@ textarea {
   }
 
   .videoProject video{
-    max-width: 38%;
+    max-width: 75%;
     outline:none;
     border: 10px solid var(--white);
   }
 
-  .videoProject .close{
+  .close{
     position: absolute;
     top:30px;
     right:30px;
@@ -986,6 +986,12 @@ textarea {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: var(--white);
+    z-index: 100;
+    transform: scale(0);
+  }
+  .close.active{
+    transform: scale(1);
+    transition: 0.5s;
   }
 
   footer{
