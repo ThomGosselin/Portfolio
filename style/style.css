@@ -930,11 +930,7 @@ textarea {
     outline:none;
     border: 10px solid var(--white);
   }
-  .cv video{
-    max-width: 38%;
-    outline:none;
-    border: 10px solid var(--white);
-  }
+
 
   .CV .close{
     position: absolute;
@@ -946,7 +942,52 @@ textarea {
     text-transform: uppercase;
     color: var(--white);
   }
-  
+
+  .animatedButton .play{
+    transition: 0.5s;
+  }
+
+  .animatedButton.active .play{
+    box-shadow: 0 0 0 150vh var(--blue);
+    z-index: 100;
+  }
+
+  .videoProject{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    transition: 0.5s;
+  }
+
+  .videoProject.active{
+    transition-delay: 0.5s;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .videoProject video{
+    max-width: 38%;
+    outline:none;
+    border: 10px solid var(--white);
+  }
+
+  .videoProject .close{
+    position: absolute;
+    top:30px;
+    right:30px;
+    cursor:pointer;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--white);
+  }
+
   footer{
     color: var(--white);
     display: flex;
