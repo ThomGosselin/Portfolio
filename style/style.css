@@ -941,6 +941,7 @@ textarea {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: var(--white);
+    z-index:100000;
   }
 
   .animatedButton .play{
@@ -991,7 +992,7 @@ textarea {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: var(--white);
-    z-index: 100;
+    z-index: 10001;
     transform: scale(0);
   }
   .close.active{

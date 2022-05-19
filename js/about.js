@@ -4,8 +4,11 @@ let close = document.querySelector(".close");
 buttonCV.onclick = function(){
     buttonCV.classList.add('active');
     CV.classList.add('active');
+    close.classList.add('active');
 }
 close.onclick = function(){
     buttonCV.classList.remove('active');
     CV.classList.remove('active');
+    close.classList.remove('active');
+
 }
