@@ -539,6 +539,16 @@ transition-delay: 500ms;
     color: var(--white);
 }
 
+#projectDTZ{
+  padding-top:100px;
+}
+#projectBoréale{
+  padding-top: 125px;
+}
+#projectLH{
+  padding-top:115px;
+}
+
 .projectTitle::after{
     content: '';
     position: absolute;
