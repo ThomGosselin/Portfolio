@@ -962,7 +962,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 100;
+    z-index: 1000;
     transition: 0.5s;
   }
 
@@ -972,6 +972,11 @@ textarea {
   }
 
   .videoProject video{
+    max-width: 75%;
+    outline:none;
+    border: 10px solid var(--white);
+  }
+  .videoProject#phelps video{
     max-width: 75%;
     outline:none;
     border: 10px solid var(--white);
