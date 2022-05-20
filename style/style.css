@@ -541,12 +541,28 @@ transition-delay: 500ms;
 
 #projectDTZ{
   padding-top:100px;
+  
+}
+#dtz{
+  background-image: url(../img/dtz.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #projectBoréale{
   padding-top: 125px;
 }
+#boreale{
+  background-image: url(../img/boreale.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 #projectLH{
   padding-top:115px;
+}
+#lastHope{
+  background-image: url(../img/lastHope.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #projectJM{
   padding-top:115px;
