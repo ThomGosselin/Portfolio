@@ -605,7 +605,7 @@ transition-delay: 500ms;
   background-repeat: no-repeat;
 }
 #projectLM{
-  padding-top:100px;
+  padding-top:105px;
 }
 #lm{
   background-image: url(../img/lm.jpg);
@@ -615,50 +615,130 @@ transition-delay: 500ms;
 #projectFS{
   padding-top:120px;
 }
+#fs{
+  background-image: url(../img/eaudi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 #projectBP{
   padding-top:75px;
+}
+#bp{
+  background-image: url(../img/pendu.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #projectIF{
   padding-top:98px;
 }
+#if{
+  background-image: url(../img/info.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 #projectME{
   padding-top:110px;
+}
+#meta{
+  background-image: url(../img/metaG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #projectBG{
   padding-top:100px;
 }
+#bg{
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 #projectTZ{
   padding-top:110px;
+}
+#tz{
+  background-image: url(../img/thaiz.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #projectMS{
   padding-top:115px;
 }
+#ms{
+  background-image: url(../img/ms.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 #projectJDQ{
   padding-top:110px;
+}
+#jdq{
+  background-image: url(../img/jdqC.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #projectIA{
   padding-top:130px;
 }
+#ia{
+  background-image: url(../img/ia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 #projectSG{
   padding-top:140px;
+}
+#s20{
+  background-image: url(../img/s20.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #projectCC{
   padding-top:110px;
 }
+#caps{
+  background-image: url(../img/caps.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 #projectMP{
   padding-top:150px;
+}
+#mp{
+  background-image: url(../img/mp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #projectMD{
   padding-top:145px;
 }
+#motion{
+  background-image: url(../img/f1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 #projectIDM{
   padding-top:125px;
+}
+#idm{
+  background-image: url(../img/idm.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #projectGD{
   padding-top:110px;
 }
+#gd{
+  background-image: url(../img/gd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 #projectFV{
   padding-top:90px;
+}
+#fv{
+  background-image: url(../img/fv.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .projectTitle::after{
