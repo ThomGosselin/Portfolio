@@ -565,7 +565,12 @@ transition-delay: 500ms;
   background-repeat: no-repeat;
 }
 #projectJM{
-  padding-top:115px;
+  padding-top:118px;
+}
+#jeunesseMaritime{
+  background-image: url(../img/jeunesswe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #projectAQ{
   padding-top:108px;
