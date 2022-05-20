@@ -596,6 +596,24 @@ transition-delay: 500ms;
 #projectSG{
   padding-top:140px;
 }
+#projectCC{
+  padding-top:110px;
+}
+#projectMP{
+  padding-top:150px;
+}
+#projectMD{
+  padding-top:145px;
+}
+#projectIDM{
+  padding-top:125px;
+}
+#projectGD{
+  padding-top:110px;
+}
+#projectFV{
+  padding-top:90px;
+}
 
 .projectTitle::after{
     content: '';
