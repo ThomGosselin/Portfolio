@@ -10,8 +10,8 @@ let premierMDvideoPlayer = document.querySelector("#premierMDvideoPlayer");
 let gdVideoPlayer = document.querySelector("#gdVideoPlayer");
 let video1V = document.querySelector("#video1V");
 let fvVideoPlayer = document.querySelector("#fvVideoPlayer");
-
 let close = document.querySelector(".close");
+
 videoCaps.onclick = function(){
     videoCaps.classList.add('active');
     capsVideoPlayer.classList.add('active');

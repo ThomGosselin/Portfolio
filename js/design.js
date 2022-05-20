@@ -1,6 +1,6 @@
-let projectIF = document.getElementById("projectIF");
+let projectIF = document.getElementById("photoIF");
 let ifProject = document.getElementById("ifProject");
-let projectME = document.getElementById("projectME");
+let projectME = document.getElementById("photoMe");
 let meProject = document.getElementById("meProject");
 let projectTZ = document.getElementById("projectTZ");
 let tzProject = document.getElementById("tzProject");
@@ -12,7 +12,7 @@ let projectIA = document.getElementById("projectIA");
 let iaProject = document.getElementById("iaProject");
 let projectSG = document.getElementById("projectSG");
 let sgProject = document.getElementById("sgProject");
-let projectBG = document.getElementById("projectBG");
+let projectBG = document.getElementById("photoBG");
 let bgProject = document.getElementById("bgProject");
 let close = document.querySelector(".close");
 
