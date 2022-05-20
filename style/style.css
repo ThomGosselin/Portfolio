@@ -548,6 +548,24 @@ transition-delay: 500ms;
 #projectLH{
   padding-top:115px;
 }
+#projectJM{
+  padding-top:115px;
+}
+#projectAQ{
+  padding-top:108px;
+}
+#projectSM{
+  padding-top:95px;
+}
+#projectMSB{
+  padding-top:95px;
+}
+#projectAR{
+  padding-top:103px;
+}
+#projectLM{
+  padding-top:85px;
+}
 
 .projectTitle::after{
     content: '';
