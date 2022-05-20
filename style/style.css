@@ -572,6 +572,30 @@ transition-delay: 500ms;
 #projectBP{
   padding-top:75px;
 }
+#projectIF{
+  padding-top:98px;
+}
+#projectME{
+  padding-top:110px;
+}
+#projectBG{
+  padding-top:100px;
+}
+#projectTZ{
+  padding-top:110px;
+}
+#projectMS{
+  padding-top:115px;
+}
+#projectJDQ{
+  padding-top:110px;
+}
+#projectIA{
+  padding-top:130px;
+}
+#projectSG{
+  padding-top:140px;
+}
 
 .projectTitle::after{
     content: '';
