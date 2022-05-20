@@ -557,7 +557,7 @@ transition-delay: 500ms;
   background-repeat: no-repeat;
 }
 #projectLH{
-  padding-top:115px;
+  padding-top:118px;
 }
 #lastHope{
   background-image: url(../img/lastHope.jpg);
@@ -573,19 +573,44 @@ transition-delay: 500ms;
   background-repeat: no-repeat;
 }
 #projectAQ{
-  padding-top:108px;
+  padding-top:111px;
+}
+#aquafy{
+  background-image: url(../img/aquafy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #projectSM{
-  padding-top:105px;
+  padding-top:109px;
+}
+#smoths{
+  background-image: url(../img/smothos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #projectMSB{
-  padding-top:107px;
+  padding-top:108px;
+}
+#msb{
+  background-image: url(../img/MSB.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #projectAR{
   padding-top:115px;
 }
+#artemis{
+  background-image: url(../img/artemis.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 #projectLM{
   padding-top:100px;
+}
+#lm{
+  background-image: url(../img/lm.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #projectFS{
   padding-top:120px;
