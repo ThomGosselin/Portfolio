@@ -1409,6 +1409,9 @@ textarea {
   .cardProject{
     flex-basis:  100%;
   }
+  #contact{
+    width: 100%;
+  }
 }
 @media screen and (max-width: 768px){
   h1.glitch{
@@ -1416,5 +1419,14 @@ textarea {
   }
   section:last-of-type h2.typing{
     font-size: 1.5rem;
+  }
+  #contact{
+    width:98%;
+    margin-left:5px;
+  }
+}
+@media screen and (max-width: 500px){
+  #contact{
+    padding-top:150px;
   }
 }
