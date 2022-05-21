@@ -291,9 +291,12 @@
     background-color: var(--BgColor);
     display: flex;
     font-family: 'Poppins', sans-serif;
-    gap: 20px;
     height: 60vh;
     justify-content: center;
+    max-width:max-content;
+  }
+  section.showcase{
+    margin-right:0;
   }
   section:last-of-type{
     align-items: center;
@@ -308,6 +311,7 @@
     position: relative;
     font-size: 100px;
     padding: 30px;
+    width:min-content;
  }
  h1.glitch::before, h1.glitch::after{
   padding: 30px;
@@ -1469,7 +1473,7 @@ textarea {
 }
 @media screen and (max-width: 768px){
   h1.glitch{
-    font-size:60px;
+    font-size:50px;
   }
   section:last-of-type h2.typing{
     font-size: 1.5rem;
