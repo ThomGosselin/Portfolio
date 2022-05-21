@@ -1402,6 +1402,18 @@ textarea {
 /* Section Responsive*/
 
 @media screen and (max-width: 1024px) {
+  .CV img{
+    max-width: 70%;
+  }
+  .CV .close{
+    top: 217px;
+    right: 42px;
+  }
+
+  .CV.active{
+    width:100%;
+    transform:translate(-50%, -65%) scale(1);
+  }
   .CategoryContainer{
     flex-direction: column;
     align-items: center;
