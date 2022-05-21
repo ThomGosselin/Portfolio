@@ -344,12 +344,13 @@
   .typing {
       color:var(--white);
       width: 26ch;
-      animation: typing 2s steps(26), blink .5s step-end infinite alternate;
+      animation: typing 2s steps(16), blink .5s step-end infinite alternate;
       white-space: nowrap;
       overflow: hidden;
       border-right: 3px solid;
       font-family: monospace;
       font-size: 2rem;
+      text-align: center;
     }
   h3{
       color: var(--white);
@@ -1401,7 +1402,13 @@ textarea {
 /* Section Responsive*/
 
 @media screen and (max-width: 1024px) {
-  section.showcase{
-    
+  
+}
+@media screen and (max-width: 768px){
+  h1.glitch{
+    font-size:60px;
+  }
+  section:last-of-type h2.typing{
+    font-size: 1.5rem;
   }
 }
