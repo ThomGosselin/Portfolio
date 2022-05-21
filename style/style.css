@@ -1407,16 +1407,16 @@ textarea {
 
 @media screen and (max-width: 1024px) {
   .CV img{
-    max-width: 70%;
+    max-width: 80%;
+    z-index: 1500;
   }
   .CV .close{
-    top: 217px;
+    top: 50px;
     right: 42px;
   }
 
   .CV.active{
     width:100%;
-    transform:translate(-50%, -65%) scale(1);
   }
   .CategoryContainer{
     flex-direction: column;
@@ -1474,6 +1474,9 @@ textarea {
     height: 550px;
     width: 550px;
   }
+  .cvIMG{
+    max-width:55%;
+  }
 }
 @media screen and (max-width: 768px){
   h1.glitch{
@@ -1519,6 +1522,9 @@ textarea {
   .Mecard .card-header .waves-container .wave{
     height: 150px;
     width: 150px;
+  }
+  .CV img{
+    max-width:90%;
   }
 }
 @media screen and (max-width: 500px){
