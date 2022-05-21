@@ -1470,6 +1470,10 @@ textarea {
   #projectFV{
     padding-top:125px;
   }
+  .Mecard .card-header .waves-container .wave{
+    height: 550px;
+    width: 550px;
+  }
 }
 @media screen and (max-width: 768px){
   h1.glitch{
