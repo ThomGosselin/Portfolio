@@ -1516,6 +1516,10 @@ textarea {
   #projectFV{
     padding-top:105px;
   }
+  .Mecard .card-header .waves-container .wave{
+    height: 150px;
+    width: 150px;
+  }
 }
 @media screen and (max-width: 500px){
   #contact{
