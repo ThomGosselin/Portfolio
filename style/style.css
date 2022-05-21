@@ -1400,8 +1400,8 @@ textarea {
 
 /* Section Responsive*/
 
-@media(max-width:991px){
-  .clip img{
-    max-width: 90%;
+@media screen and (max-width: 1024px) {
+  section.showcase{
+    
   }
 }
