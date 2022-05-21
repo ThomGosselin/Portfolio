@@ -1412,6 +1412,40 @@ textarea {
   #contact{
     width: 100%;
   }
+  #projectLH{
+    padding-top:75px;
+  }
+  #projectJM{
+    padding-top:75px;
+  }
+  #projectAQ{
+    padding-top: 118px;
+  }
+  #projectFS{
+    padding-top: 125px;
+  }
+  #projectBP{
+    padding-top: 100px;
+  }
+  #projectBG{
+    padding-top:85px;
+  }
+  #projectTZ{
+    padding-top:90px;
+  }
+  #projectMS{
+    padding-top:135px;
+  }
+  #projectJDQ{
+    padding-top:108px;
+  }
+  #projectIA{
+    padding-top:90px;
+  }
+  #projectSG{
+    padding-top:95px;
+  }
+  #projectIDM{}
 }
 @media screen and (max-width: 768px){
   h1.glitch{
@@ -1423,6 +1457,27 @@ textarea {
   #contact{
     width:98%;
     margin-left:5px;
+  }
+  #projectBoréale{
+    padding-top:60px;
+  }
+  #projectAQ{
+    padding-top: 85px;
+  }
+  #projectAR{
+    padding-top: 95px;
+  }
+  #projectFS{
+    padding-top: 90px;
+  }
+  #projectME{
+    padding-top:80px;
+  }
+  #projectMS{
+    padding-top:65px;
+  }
+  #projectSG{
+    padding-top:75px;
   }
 }
 @media screen and (max-width: 500px){
