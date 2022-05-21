@@ -1445,7 +1445,15 @@ textarea {
   #projectSG{
     padding-top:95px;
   }
-  #projectIDM{}
+  #projectMD{
+    padding-top:125px;
+  }
+  #projectIDM{
+    padding-top: 105px;
+  }
+  #projectFV{
+    padding-top:125px;
+  }
 }
 @media screen and (max-width: 768px){
   h1.glitch{
@@ -1478,6 +1486,15 @@ textarea {
   }
   #projectSG{
     padding-top:75px;
+  }
+  #projectMP{
+    padding-top:55px; 
+  }
+  #projectMD{
+    padding-top:65px;
+  }
+  #projectFV{
+    padding-top:105px;
   }
 }
 @media screen and (max-width: 500px){
