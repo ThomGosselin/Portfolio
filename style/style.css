@@ -924,7 +924,7 @@ li.icon a span ion-icon{
 .wrapper .facebook:hover,
 .wrapper .facebook:hover .tooltip,
 .wrapper .facebook:hover .tooltip::before {
-  background: #1877F2;
+  background: #797979;
   color: var(--white);
 }
 
