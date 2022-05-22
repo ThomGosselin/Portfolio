@@ -1186,12 +1186,29 @@ textarea {
     z-index: 1000;
     transition: 0.5s;
   }
+  .progProject{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: 0.5s;
+  }
 
   .videoProject.active{
     transition-delay: 0.5s;
     transform: translate(-50%, -50%) scale(1);
   }
   .designProject.active{
+    transition-delay: 0.5s;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .progProject.active{
     transition-delay: 0.5s;
     transform: translate(-50%, -50%) scale(1);
   }
@@ -1203,6 +1220,11 @@ textarea {
 
   .videoProject video{
     max-width: 75%;
+    outline:none;
+    border: 10px solid var(--white);
+  }
+  .progProject img{
+    max-width: 35%;
     outline:none;
     border: 10px solid var(--white);
   }
