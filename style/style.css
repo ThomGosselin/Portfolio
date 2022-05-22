@@ -29,8 +29,8 @@
     margin: 0;
     font-family: "Source Sans Pro",sans-serif;
     min-height:100vh;
-    place-content: center;
     text-align: center;
+    overflow-x: hidden;
   }
   
   /* ----- Curseur ----- */
@@ -293,7 +293,6 @@
     font-family: 'Poppins', sans-serif;
     height: 60vh;
     justify-content: center;
-    max-width:max-content;
   }
   section.showcase{
     margin-right:0;
@@ -311,7 +310,6 @@
     position: relative;
     font-size: 100px;
     padding: 30px;
-    width:min-content;
  }
  h1.glitch::before, h1.glitch::after{
   padding: 30px;
