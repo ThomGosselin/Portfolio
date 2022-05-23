@@ -1458,11 +1458,17 @@ textarea {
   #contact{
     width: 100%;
   }
+  #projectDTZ{
+    padding-top:110px;
+  }
+  #projectBoréale{
+    padding-top:135px;
+  }
   #projectLH{
-    padding-top:75px;
+    padding-top:115px;
   }
   #projectJM{
-    padding-top:75px;
+    padding-top:155px;
   }
   #projectAQ{
     padding-top: 118px;
