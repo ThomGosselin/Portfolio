@@ -376,12 +376,12 @@
       text-align: center;
       display: flex;
       font-size: 1.5em;
-      color: rgb(88 199 250 / 0%);
+      color: var(--white);
       cursor: pointer;
       margin: 100px 15px 0 15px;
     }
     .card :hover {
-      color: rgb(88 199 250 / 100%);
+      color: var(--green);
       transition: color 1s;
     }
     .card:hover:before, .card:hover:after {
@@ -401,7 +401,7 @@
     }
     .card a{
         align-items: center;
-        color: var(--blue);
+        color: var(--white);
         display: flex;
         justify-content: center;
         height: var(--card-height);
@@ -1014,7 +1014,6 @@ textarea {
   width: 100%;
   height:65vh;
   background-color: var(--BgColor);
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
   padding: 0 15px;
 }
 
@@ -1079,6 +1078,8 @@ textarea {
     line-height: 1.8;
     color: var(--white);
     margin: 20px 0;
+    padding: 0 50vh;
+    text-align: justify;
   }
   /*Bouton pour mon CV*/
   .buttonCV{
@@ -1426,6 +1427,10 @@ textarea {
 /* Section Responsive*/
 
 @media screen and (max-width: 1024px) {
+  .Mecard .card-body p{
+    text-align: center;
+    padding: 0;
+  }
   .CV img{
     max-width: 80%;
     z-index: 1500;
