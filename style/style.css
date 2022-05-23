@@ -543,7 +543,7 @@ transition-delay: 500ms;
 }
 
 #projectDTZ{
-  padding-top:100px;
+  padding-top:135px;
   
 }
 #dtz{
@@ -552,7 +552,7 @@ transition-delay: 500ms;
   background-repeat: no-repeat;
 }
 #projectBoréale{
-  padding-top: 125px;
+  padding-top: 165px;
 }
 #boreale{
   background-image: url(../img/boreale.jpg);
@@ -568,7 +568,7 @@ transition-delay: 500ms;
   background-repeat: no-repeat;
 }
 #projectJM{
-  padding-top:118px;
+  padding-top:158px;
 }
 #jeunesseMaritime{
   background-image: url(../img/jeunesswe.jpg);
@@ -576,7 +576,7 @@ transition-delay: 500ms;
   background-repeat: no-repeat;
 }
 #projectAQ{
-  padding-top:111px;
+  padding-top:151px;
 }
 #aquafy{
   background-image: url(../img/aquafy.jpg);
